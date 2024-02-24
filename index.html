@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <style>
+        body {
+  background-image: url("assent/images/bienvenidos.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+    
+        body, html{
+            height: 100%;
+        }
+        .contenedor{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .superior{
+            flex: 0 0 30%;
+        }
+        
+        .inferior{
+            flex:1;
+            display: flex;
+        }
+
+        .izquierda{
+            flex: 0 0 40%;
+            height: 800px
+        }
+
+        .cuerpo{
+            flex:1;
+            
+        }
+        a {
+      color: #c90bef;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+    }
+    
+    a:hover {
+      color: #ff0000;
+    }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <a href="agenciadeviajes.html" target="cuerpo">Agencia de viajes</a>
+        <a href="tienda.html" target="cuerpo">Tienda de alimentos</a>
+        <a href="cafeteria.html" target="cuerpo">Cafetería</a>
+        <a href="academiaidiomas.html" target="cuerpo">Academia de idiomas</a>
+        <iframe src="" frameborder="0" name="cuerpo" style="height: 100%; width: 100%;"></iframe>
+
+    </div>
+</body>
+</html>
